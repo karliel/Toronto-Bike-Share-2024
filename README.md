@@ -37,7 +37,7 @@ Due to GitHub file size limits, raw bike share ridership and weather dataset are
 - [README.md](README.md) : project overview and documentation
 - [QUESTIONS_AND_ANSWERS.md](QUESTIONS_AND_ANSWERS.md) : key analytical questions, findings, and interpretations
 - `data/` : contains source datasets:
-    - `bike_share_sample.csv` : Toronto bike share ridership sample data (Jan�Sep 2024)
+    - `bike_share_sample.csv` : Toronto bike share ridership sample data (Jan–Sep 2024)
     - `toronto_weather_data_2024.csv` : Toronto temperature and precipitation data (2024)
 - `scripts/` : contains SQL scripts used for data preparation and analysis:
     - `data_cleaning.sql` : data cleaning and feature engineering
@@ -54,3 +54,9 @@ Due to GitHub file size limits, raw bike share ridership and weather dataset are
 - User type data are missing in the dataset of bike share January 2024, such limited the depth of the analysis  
 - Bias may occur in the analysis of error trips by filtering trips with duration under 1 minute. This filtering approach may help identify operational issues, but also exclude some valid but atypical trips
 - Bias may also occur when trip purpose were inferred in this analysis. Commute- and leisure-oriented behaviours were assumed from temporal patterns, trip durations, and route characteristics rather than directly observed or recorded trip purposes, therefore, interpretations of rider usage and motivations may not be fully captured
+
+## Business Advice
+- **Prioritize weekday peak-hours operations** : Focusing bike rebalancing, dock availability, and maintenance on weekday rush hours (7–9am, 4–7pm), especially Tuesday to Thursday, when demand is highest and most predictable
+- **Segment operations by trip purpose** : Aligning dock availability and bike rebalancing schdeules at downtown core and transit-adjacent stations to support high-volume, one-way commuter trips to reduce congestion-related errors. Meanwhile, ensuring sufficient bike availability at recreational and waterfront stations for longer weekend rides.
+- **Leverage membership behavior for revenue stability** : Targeting frequent weekday casual riders for conversion to annual memberships to improve demand consistency and revenue predictability
+- **Monitor error trips as an operational signal** : Tracking short-duration error trips to identify periods and locations of system congestion, guiding targeted interventions instead of treating errors solely as technical failures
