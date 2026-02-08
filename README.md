@@ -1,7 +1,7 @@
 # Toronto Bike Share Analysis (2024)
 
 ## Introduction
-An SQL analysis of bike share ridership data in Toronto between January and September 2024, combined with weather information, to explore patterns in usage, peak hours, membership types, and route popularity.  
+An SQL analysis of bike share ridership data in Toronto between January and September 2024, combined with weather information, to explore patterns in usage, peak hours, membership types, and route popularity, and provide growth strategies targeting bottleneck stations and period of the day
 
 
 ## Project Overview
@@ -12,6 +12,8 @@ The goal of this project is to understand:
 - Popular stations, round-trips and one-way routes 
 - The impacts of weather on bike share usage
 - Prevalence of bike share trip errors
+
+Hence, provide growth strategies targeting bottleneck stations and period of the day.
 
 This analysis demonstrates SQL-based data manipulation, aggregation, window functions, and basic data cleaning.  
 The analytical workflow and insights are explained in [QUESTIONS_AND_ANSWERS.md](QUESTIONS_AND_ANSWERS.md), with all SQL queries available in the `scripts/` directory.
