@@ -2,7 +2,6 @@
 
 ## Introduction
 An SQL analysis of bike share ridership data in Toronto between January and September 2024, combined with weather information, to explore patterns in usage, peak hours, membership types, and route popularity.  
-This project was created as part of my transition into data analytics, focusing on demonstrating strong fundamentals in SQL and analytical reasoning.  
 
 
 ## Project Overview
